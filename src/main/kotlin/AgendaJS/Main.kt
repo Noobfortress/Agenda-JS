@@ -1,5 +1,7 @@
 package AgendaJS
 
-fun main(args: Array<String>) {
+import kotlin.browser.document
 
+fun main(args: Array<String>) {
+    document.write("Hello World!")
 }
